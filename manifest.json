@@ -1,0 +1,16 @@
+{
+    "name": "INFL",
+    "description": "A browser extension that sends prices to the blockchain network.",
+    "version": "0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "permissions": [
+        "webRequest"
+    ],
+    "host_permissions": [
+        "*://*.amazon.com/"
+    ]
+}
